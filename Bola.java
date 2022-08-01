@@ -138,13 +138,8 @@ public class Bola extends Actor
             Greenfoot.playSound("export.wav");
             contador++;
         }
-        setImage(new GreenfootImage("Contador: " + contador, 20, Color.WHITE, Color.BLACK));
+        setImage(new GreenfootImage("Contador: " + contador, 20, Color.WHITE, Color.BLACK)); //Para ver la pelota comentar esta parte
     }
-    /*/public void mostrarContador(int contador)
-    {
-        addObject(this.contador, 205, 90);
-    }
-    /*/
     public void perder()
     {
         if(getY() >= getWorld().getHeight() - 1)
